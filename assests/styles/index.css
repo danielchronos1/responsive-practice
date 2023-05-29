@@ -22,6 +22,11 @@ h1, p {
   cursor: pointer;
   float: right;
 }
+
+.hero__content nav button img {
+  display: none;
+}
+
 .hero__content nav ul {
   display: flex;
   align-items: center;
@@ -105,7 +110,7 @@ h1, p {
     align-items: center;
     flex-direction: column;
   }
-  .hero__content nav button {
+  .hero__content nav button img{
     display: block;
   }
   .hero__content nav ul {
